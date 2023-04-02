@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702123669834",
+    "project_id": "chatappzen",
+    "storage_bucket": "chatappzen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702123669834:android:5d393d24b6b4f0b6d0e9b3",
+        "android_client_info": {
+          "package_name": "com.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702123669834-6ck0ldo32e6rcmbm2l15o9kkihco6j96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACnK9xgtZytMpyX6hRJblBvgheGldroJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702123669834-6ck0ldo32e6rcmbm2l15o9kkihco6j96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
