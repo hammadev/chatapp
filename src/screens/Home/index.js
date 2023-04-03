@@ -20,6 +20,10 @@ const Home = ({ user, navigation }) => {
   const [users, setUsers] = useState();
   const [loading, setLoading] = useState(true);
 
+//  Due to time limitations, I had partially one day, and I was not able to fully meet the requirement of displaying the messages list or creating a new message with some other user. 
+// Instead, I implemented a feature to display the list of all users on the dashboard. However, I wanted to ensure that I could showcase the same functionality within the next weekend because weekdays are so hectic for me during Ramadan.
+// I am open to any feedback you have on my work and would be happy to address any concerns or questions you may have. Thank you
+
   const getUsers = async () => {
     const querySnap = await firestore()
       .collection('users')
