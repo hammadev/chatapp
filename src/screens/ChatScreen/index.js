@@ -49,6 +49,11 @@ const ChatScreen = ({ user, route }) => {
       sentTo: chatWith,
     };
     setMessages(previousMessages => GiftedChat.append(previousMessages, myMsg));
+    
+//     For ChatGPT API:
+// Unfortunately, The API is a paid service, and I do not have a billing account with OpenAI or an API key for ChatGPT API at the moment, which means that I am unable to access the API for this task.
+// Thank you for your time and consideration.
+
     if (userType == 'bot') {
       console.log(userType);
       let data = {
